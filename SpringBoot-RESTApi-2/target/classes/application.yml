@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    password: Jadugar@09
+    url: jdbc:mysql://localhost:3306/employee
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      dailect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
